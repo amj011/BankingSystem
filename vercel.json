@@ -1,9 +1,6 @@
 {
-  "functions": {
-    "api/**/*": {
-      "runtime": "python3.8"
-    }
+  "builds": {
+    "source": "app.py",
+    "use": "@vercel/python"
   }
 }
-
-  
